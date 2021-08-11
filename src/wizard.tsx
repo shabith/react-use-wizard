@@ -24,9 +24,6 @@ const Wizard: React.FC<WizardProps> = React.memo(
       } else if (hasNextStep.current) {
         setActiveStep((activeStep) => activeStep + 1);
       }
-      if (hasNextStep.current) {
-        setActiveStep((activeStep) => stepIndex ?? activeStep + 1);
-      }
     });
 
     const goToPreviousStep = React.useRef((step?: number) => {
