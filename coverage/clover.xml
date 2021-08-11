@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1628674550652" clover="3.2.0">
+  <project timestamp="1628674550652" name="All files">
+    <metrics statements="75" coveredstatements="57" conditionals="47" coveredconditionals="23" methods="16" coveredmethods="12" elements="138" coveredelements="92" complexity="0" loc="75" ncloc="75" packages="1" files="5" classes="5"/>
+    <file name="index.ts" path="/Users/shabith/github/react-use-wizard/src/index.ts">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="1" count="18" type="stmt"/>
+      <line num="2" count="13" type="stmt"/>
+    </file>
+    <file name="logger.ts" path="/Users/shabith/github/react-use-wizard/src/logger.ts">
+      <metrics statements="9" coveredstatements="6" conditionals="5" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="9" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="18" count="0" type="stmt"/>
+      <line num="20" count="0" type="stmt"/>
+    </file>
+    <file name="useWizard.ts" path="/Users/shabith/github/react-use-wizard/src/useWizard.ts">
+      <metrics statements="8" coveredstatements="7" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="7" count="11" type="stmt"/>
+      <line num="9" count="11" type="cond" truecount="2" falsecount="2"/>
+      <line num="10" count="0" type="stmt"/>
+      <line num="12" count="11" type="stmt"/>
+      <line num="16" count="2" type="stmt"/>
+    </file>
+    <file name="wizard.tsx" path="/Users/shabith/github/react-use-wizard/src/wizard.tsx">
+      <metrics statements="52" coveredstatements="38" conditionals="38" coveredconditionals="19" methods="12" coveredmethods="8"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="8" count="17" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="17" type="stmt"/>
+      <line num="10" count="17" type="stmt"/>
+      <line num="11" count="17" type="stmt"/>
+      <line num="12" count="17" type="stmt"/>
+      <line num="13" count="17" type="stmt"/>
+      <line num="15" count="17" type="stmt"/>
+      <line num="17" count="17" type="stmt"/>
+      <line num="19" count="17" type="stmt"/>
+      <line num="20" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="21" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="22" count="0" type="stmt"/>
+      <line num="24" count="5" type="cond" truecount="1" falsecount="1"/>
+      <line num="25" count="0" type="stmt"/>
+      <line num="27" count="7" type="cond" truecount="1" falsecount="1"/>
+      <line num="28" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="32" count="17" type="stmt"/>
+      <line num="33" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="34" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="39" count="17" type="stmt"/>
+      <line num="40" count="2" type="stmt"/>
+      <line num="43" count="17" type="stmt"/>
+      <line num="44" count="14" type="cond" truecount="2" falsecount="2"/>
+      <line num="46" count="0" type="stmt"/>
+      <line num="47" count="0" type="stmt"/>
+      <line num="48" count="0" type="stmt"/>
+      <line num="49" count="0" type="stmt"/>
+      <line num="50" count="0" type="stmt"/>
+      <line num="52" count="0" type="stmt"/>
+      <line num="53" count="0" type="stmt"/>
+      <line num="56" count="7" type="stmt"/>
+      <line num="60" count="17" type="stmt"/>
+      <line num="61" count="17" type="stmt"/>
+      <line num="73" count="17" type="stmt"/>
+      <line num="74" count="17" type="stmt"/>
+      <line num="76" count="17" type="cond" truecount="1" falsecount="1"/>
+      <line num="78" count="17" type="cond" truecount="1" falsecount="1"/>
+      <line num="79" count="0" type="stmt"/>
+      <line num="85" count="17" type="cond" truecount="2" falsecount="0"/>
+      <line num="86" count="1" type="stmt"/>
+      <line num="87" count="1" type="stmt"/>
+      <line num="90" count="17" type="cond" truecount="3" falsecount="1"/>
+      <line num="91" count="0" type="stmt"/>
+      <line num="94" count="17" type="cond" truecount="2" falsecount="2"/>
+      <line num="95" count="0" type="stmt"/>
+      <line num="99" count="17" type="stmt"/>
+      <line num="102" count="17" type="stmt"/>
+      <line num="114" count="2" type="stmt"/>
+    </file>
+    <file name="wizardContext.ts" path="/Users/shabith/github/react-use-wizard/src/wizardContext.ts">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="8" count="2" type="stmt"/>
+    </file>
+  </project>
+</coverage>

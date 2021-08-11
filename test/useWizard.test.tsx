@@ -133,6 +133,7 @@ describe('useWizard', () => {
     });
 
     act(() => {
+      console.log('handleStep', result.current);
       result.current.handleStep(callback);
     });
     // Wait for an element to appear
@@ -141,6 +142,29 @@ describe('useWizard', () => {
       expect(result.current.isFirstStep).toBe(false);
       expect(result.current.isLastStep).toBe(true);
       expect(callback).toBeCalled();
+    });
+  });
+
+  test('should go to passed step index on next step even in last step', () => {
+    const { result } = renderHook(() => useWizard(), {
+      wrapper: ({ children }: { children: React.ReactNode }) => {
+        return <Wizard startIndex={2}>{children}</Wizard>;
+      },
+      initialProps: {
+        children: (
+          <>
+            <p>step 1</p>
+            <p>step 2</p>
+            <p>step 3</p>
+          </>
+        ),
+      },
+    });
+    // Wait for an element to appear
+    waitFor(() => {
+      result.current.nextStep(0);
+      expect(result.current.isFirstStep).toBe(true);
+      expect(result.current.isLastStep).toBe(false);
     });
   });
 

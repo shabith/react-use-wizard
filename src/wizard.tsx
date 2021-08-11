@@ -17,6 +17,13 @@ const Wizard: React.FC<WizardProps> = React.memo(
     hasPreviousStep.current = activeStep > 0;
 
     const goToNextStep = React.useRef((stepIndex?: number) => {
+      if (stepIndex) {
+        if (stepIndex <= React.Children.toArray(children).length - 1) {
+          setActiveStep(stepIndex);
+        }
+      } else if (hasNextStep.current) {
+        setActiveStep((activeStep) => activeStep + 1);
+      }
       if (hasNextStep.current) {
         setActiveStep((activeStep) => stepIndex ?? activeStep + 1);
       }
@@ -76,6 +83,7 @@ const Wizard: React.FC<WizardProps> = React.memo(
         }
         // The passed start index is invalid
         if (activeStep > reactChildren.length) {
+          console.log('reactChildren.length', reactChildren.length);
           logger.log('warn', 'An invalid startIndex is passed to <Wizard>');
         }
         // Invalid header element
